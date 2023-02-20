@@ -88,11 +88,16 @@ Buatlah ERD untuk menunjukkan bagaimana kamu akan menyimpan informasi ini.
 - Tidak semua komponen digunakan dalam produk.
 - Suatu produk tidak dapat eksis tanpa komponen.
 
+#### Point penilaian
+- Membuat ERD **(40 Point)**
+- Membuat table dengan DDL  **(30 Point)**
+- Membuat CRUD dengan DML **(30 Point)**
+
 **Personal Note :**
 > source: https://opentextbc.ca/dbdesign01/back-matter/appendix-b-erd-exercises/
 
 
-## Chapter 4 - on progress### Topic 1 | Database
+## Chapter 4 - on progress
 
 ### Topic 1 | 
 ### Topic 2 | 
