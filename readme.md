@@ -1,7 +1,10 @@
-# Chapter 1
-# Chapter 2
+# Exercises and Challenges
 
-# Chapter 3
+
+## Chapter 1
+## Chapter 2
+
+## Chapter 3
   
 ### Topic 1 | Database
 
@@ -13,6 +16,50 @@ Pada topik ini, kita akan mengenal simbol-simbol yang digunakan untuk membuat ER
 
 
 ### Topic 2 | DBMS
+
+#### Intruksi
+
+Sebuah platform memiliki fitur post, like dan comment
+
+Informasi User yang disimpan adalah sebagai berikut :
+- ID user
+- nama user, dan
+- profile user
+ 
+User-user ini dapat membuat banyak postingan. Informasi post yang disimpan adalah sebagai berikut :
+- ID komponen
+- url media
+- deskripsi postingan
+- jumlah like, dan
+- komentar dari user lainnya
+
+Buatlah ERD untuk menunjukkan bagaimana kamu akan menyimpan informasi ini.
+
+#### Asumsi
+- **user** dapat eksis tanpa membuat **post**.
+- data **post** harus dikaitkan dengan **user**.
+- Sebuah **komentar** tidak dapat eksis tanpa **user**.
+- Sebuah **like** tidak dapat eksis tampa **user**.
+
+
+### Topic 3 | Query languages
+
+#### Intruksi
+
+Pada topik ini kita akan berlatih menggunakan query language, kamu cukup memperhatikan contoh yang diberikan oleh facil dan mengulangnya agar dapat mengingatnya dengan mudah.
+
+
+### Topic 4 | RDBMS
+
+#### Intruksi
+
+Setelah di topik 2 kita mevisualisasikan bagaimana data platform media sosial akan disimpan didalam database, kita akan latihan untuk mengimplementasikannya didalam database SQL:
+- Membuat database
+- Membuat table
+- Membuat perintah CRUD
+
+
+### Challenge
 
 #### Intruksi
 
@@ -41,30 +88,11 @@ Buatlah ERD untuk menunjukkan bagaimana kamu akan menyimpan informasi ini.
 - Tidak semua komponen digunakan dalam produk.
 - Suatu produk tidak dapat eksis tanpa komponen.
 
+**Personal Note :**
 > source: https://opentextbc.ca/dbdesign01/back-matter/appendix-b-erd-exercises/
 
 
-### Topic 3 | Query languages
-
-#### Intruksi
-
-Pada topik ini kita akan berlatih menggunakan query language, kamu cukup memperhatikan contoh yang diberikan oleh facil dan mengulangnya agar dapat mengingatnya dengan mudah.
-
-
-### Topic 4 | RDBMS
-
-#### Intruksi
-
-Setelah di topik 2 kita mevisualisasikan bagaimana data manufaktur akan disimpan didalam database, kita akan latihan untuk mengimplementasikannya didalam database SQL:
-- Membuat database
-- Membuat table
-- Membuat perintah CRUD
-
-
-### Challenge
-
-
-# Chapter 4 - on progress### Topic 1 | Database
+## Chapter 4 - on progress### Topic 1 | Database
 
 ### Topic 1 | 
 ### Topic 2 | 
@@ -74,7 +102,7 @@ Setelah di topik 2 kita mevisualisasikan bagaimana data manufaktur akan disimpan
 
 
 
-# Chapter 5 - on progress
+## Chapter 5 - on progress
 
 ### Topic 1 | 
 ### Topic 2 | 
@@ -85,7 +113,7 @@ Setelah di topik 2 kita mevisualisasikan bagaimana data manufaktur akan disimpan
 
 
 
-# Chapter 6 - on progress
+## Chapter 6 - on progress
 
 ### Topic 1 | 
 ### Topic 2 | 
@@ -96,13 +124,10 @@ Setelah di topik 2 kita mevisualisasikan bagaimana data manufaktur akan disimpan
 
 
 
-# Chapter 7 - on progress
+## Chapter 7 - on progress
 
 ### Topic 1 | 
 ### Topic 2 | 
 ### Topic 3 | 
 ### Topic 4 | 
 ### Challenge
-
-
-
