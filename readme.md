@@ -10,10 +10,10 @@
 
 #### Intruksi
 
-Pada topik ini, kita akan mengenal simbol-simbol yang digunakan untuk membuat ERD.
+Pada topik ini, kita akan mengenal simbol-simbol yang digunakan untuk membuat ERD. Kamu cukup memperhatikan contoh yang diberikan oleh facil dan mengulangnya agar dapat mengingatnya dengan mudah.
 
-> Note :
-
+**Personal Note:**
+> *-*
 
 ### Topic 2 | DBMS
 
@@ -41,6 +41,8 @@ Buatlah ERD untuk menunjukkan bagaimana kamu akan menyimpan informasi ini.
 - Sebuah **komentar** tidak dapat eksis tanpa **user**.
 - Sebuah **like** tidak dapat eksis tampa **user**.
 
+**Personal Note:**
+> *-*
 
 ### Topic 3 | Query languages
 
@@ -48,6 +50,8 @@ Buatlah ERD untuk menunjukkan bagaimana kamu akan menyimpan informasi ini.
 
 Pada topik ini kita akan berlatih menggunakan query language, kamu cukup memperhatikan contoh yang diberikan oleh facil dan mengulangnya agar dapat mengingatnya dengan mudah.
 
+**Personal Note:**
+> *-*
 
 ### Topic 4 | RDBMS
 
@@ -58,6 +62,8 @@ Setelah di topik 2 kita mevisualisasikan bagaimana data platform media sosial ak
 - Membuat table
 - Membuat perintah CRUD
 
+**Personal Note:**
+> *-*
 
 ### Challenge
 
