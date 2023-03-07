@@ -174,19 +174,53 @@ Konversikan lah CRUD yang sudah kita buat dengan menggunakan ORM.
 
 > Sudah ditambahkan di slide
 
-## Chapter 5 - on progress
+## Chapter 5 - API Documentation
 
-### Topic 1 |
+### Topic 1 | Networking
 
-### Topic 2 |
+Tidak perlu diberi latihan karena disini hanya berisi materi konsep.
 
-### Topic 3 |
+### Topic 2 | Api Documentation 1
 
-### Topic 4 |
+Pada kesempatan ini kita akan berlatih untuk membuat API dokumentasi menggunakan swagger.
+
+Swagger Base properties
+
+1. Buatlah file baru dengan nama `sosmed-api.yaml`.
+2. Tentukan properti dasar berikut:
+   - swagger
+     - info
+     - basePath
+   - jenis mime type yang didukung dalam consume dan produce
+     - aplikasi/json
+3. Tambahkan resource baru `/posts`
+4. Tambahkan operasi **get** baru untuk mendapatkan semua post.
+5. Validasi api spec `sosmed-api.yaml` di Swagger Editor.
+
+### Topic 3 | Api Documentation 2
+
+Mengimplementasikan operasi CRUD objek **Post**
+
+1. Buat operasi **post** pada resource `/posts`, yang membuat post baru.
+2. Buat operasi **get** pada resource `/posts/{postId}`, yang mendapatkan detail post.
+3. Buat operasi **put** pada resource `/posts/{postId}`, yang memperbarui post.
+4. Buat operasi **delete** pada resource `/posts/{postId}`, yang menghapus post.
+5. Validasi api spec `sosmed-api.yaml` di Swagger Editor.
+
+### Topic 4 | Design Pattern
+
+**Note:**
+
+> Pada topik ini student akan berlatih membuat api menggunakan design pattern MVC.
+> Facilitator akan memimpin latihan dan akan membantu students untuk melepati setiap tahap pengerjaannya.
 
 ### Challenge
 
-## Chapter 6
+**Personal Note:**
+
+> Sudah ditambahkan di slide
+
+## Chapter 6 - Testing and Deployment
 
 ### Topic 1 | Testing
 
@@ -227,14 +261,37 @@ Untuk membantu kita dalam melakukan debugging dan logging. kita dapat menggunaka
 
 ### Challenge
 
-## Chapter 7 - on progress
+> Sudah ditambahkan di slide (perlu alignment)
 
-### Topic 1 |
+## Chapter 7 - Authentication, Media handling and Mailer
 
-### Topic 2 |
+### Topic 1 | Authentication
 
-### Topic 3 |
+Mengimplementasikan autentikasi menggunakan JSON Web Token:
 
-### Topic 4 |
+1. Buat utilitas untuk mengenerate token
+2. Buat api **post** `/auth/register`, yang mendaftarkan user baru.
+3. Buat api **post** `/auth/login`, yang membuat jwt token baru.
+4. Buat middleware untuk memeriksa token didalam header.
+5. Proteksi semua api yang memerlukan autentikasi.
+
+### Topic 2 | Media Handling
+
+Mengimplementasikan media handling:
+
+1. Buat utilitas untuk mengupload media ke imagekit.
+2. Buat middleware untuk membaca file menggunakan multer.
+3. Buat api **put** `/profiles/{userId}` untuk memperbarui foto avatar.
+4. Integrasikan seluruh komponen agar user dapat memperbarui avatar.
+
+### Topic 3 | Mailer
+
+Mengimplemantasikan Notifikasi Email:
+
+1. Membuat utilitas untuk mengirimkan email.
+2. Kirimkan email konfirmasi saat user melakukan pendaftaran.
+3. Buat webhook untuk mengaktifkan user dengan menggunakan link yang dikirim melelui email.
 
 ### Challenge
+
+> Sudah ditambahkan di slide (perlu alignment)
